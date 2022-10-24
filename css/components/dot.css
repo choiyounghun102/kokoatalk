@@ -1,0 +1,11 @@
+.dot{
+  background-color: tomato;
+  height: 7px;
+  width: 7px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}

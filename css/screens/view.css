@@ -1,0 +1,74 @@
+.view-bar{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.view-bar a{
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.view-bar a:first-child{
+  border-bottom: 2px solid;
+}
+.view-info{
+  margin-top: 35px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.view-hair{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 25px 20px;
+}
+.view-hair__title{
+  display: flex;
+  justify-content: center;
+  margin: 25px 0px;
+}
+.view-hair__title h2{
+  font-size: 24px;
+}
+.view-hair__img{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top:30px;
+}
+.view-hair__colium{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.view-hair__colium img{
+  width: 230px;
+  height: 150px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+.view-hair__colium span{
+  margin-bottom: 10px;
+  width: 230px;
+}
+.view-hair__colium h6{
+  font-size: 14px;
+  opacity: 0.8;
+}
+.view-hair__plus {
+  margin-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: flex-end;
+  opacity: 0.6;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.view-hair__share{
+
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 110px;
+  margin-top: 20px;
+}

@@ -1,0 +1,62 @@
+.nav {
+  background-color: whitesmoke;
+  padding: 20px 50px;
+  border-top: 1px solid rgba(0,0,0,0.2);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box; 
+}
+.nav__list{
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link{
+  color: rgba(0,0,0,0.8);
+  position: relative;
+}
+@keyframes noteAnimation{
+  0%{
+transform: none;
+  }
+  50%{
+transform: rotateY(0.5turn);
+  }
+  100%{
+    transform: none;
+  }
+}
+.nav__note{
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  animation: noteAnimation 2s ease-in-out;
+}
+
+@keyframes btnAnimation{
+  from{
+transform: translateY(60px);
+opacity: 0;
+  }
+  to{
+transform: none;
+opacity: 1;
+  }
+}
+.nav__btn{
+animation: btnAnimation 0.3s ease-in-out forwards;
+transform: translateY(60px);
+opacity: 0;
+}
+.nav__btn:nth-child(2){
+  animation-delay: 0.1s;
+}
+.nav__btn:nth-child(3){
+  animation-delay: 0.2s;
+}
+.nav__btn:nth-child(4){
+  animation-delay: 0.3s;
+}
+.nav__btn:last-child{
+  animation-delay: 0.4s;
+}
